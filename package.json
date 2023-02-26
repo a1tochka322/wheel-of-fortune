@@ -1,0 +1,19 @@
+{
+  "name": "wheel-of-fortune",
+  "version": "1.0.0",
+  "description": "wheel of fortune for lashdaria",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1tochka322/wheel-of-fortune.git"
+  },
+  "author": "a1tochka322",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a1tochka322/wheel-of-fortune/issues"
+  },
+  "homepage": "https://github.com/a1tochka322/wheel-of-fortune#readme"
+}
