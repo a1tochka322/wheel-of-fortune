@@ -1,9 +1,5 @@
 // надписи и цвета на секторах
-const prizesProto = [
-    {
-    text: "Скидка 50%",
-    color: "hsl(60, 91%, 78%)",
-    },
+const prizes = [
     {
         text: "Скидка 5%",
         color: "hsl(154, 91%, 89%)",
@@ -11,16 +7,16 @@ const prizesProto = [
     {
         text: "Скидка 10%",
         color: "hsl(287, 91%, 89%)",
-    },
-    {
-        text: "Скидка 5%",
-        color: "hsl(154, 91%, 89%)",
     },
     {
         text: "Скидка 25%",
         color: "hsl(187, 81%, 84%)",
     },
     {
+        text: "Скидка 5%",
+        color: "hsl(154, 91%, 89%)",
+    },
+    {
         text: "Скидка 10%",
         color: "hsl(287, 91%, 89%)",
     },
@@ -31,10 +27,39 @@ const prizesProto = [
     {
         text: "Скидка 10%",
         color: "hsl(287, 91%, 89%)",
-    }
+    },
+    {
+        text: "Скидка 50%",
+        color: "hsl(60, 91%, 78%)",
+    },{
+        text: "Скидка 5%",
+        color: "hsl(154, 91%, 89%)",
+    },
+    {
+        text: "Скидка 10%",
+        color: "hsl(287, 91%, 89%)",
+    },
+    {
+        text: "Скидка 5%",
+        color: "hsl(154, 91%, 89%)",
+    },
+    {
+        text: "Скидка 10%",
+        color: "hsl(287, 91%, 89%)",
+    },
+    {
+        text: "Скидка 25%",
+        color: "hsl(187, 81%, 84%)",
+    },
+    {
+        text: "Скидка 5%",
+        color: "hsl(154, 91%, 89%)",
+    },
+    {
+        text: "Скидка 10%",
+        color: "hsl(287, 91%, 89%)",
+    },
 ];
-
-const prizes = prizesProto.concat(prizesProto);
 
 // создаём переменные для быстрого доступа ко всем объектам на странице — блоку в целом, колесу, кнопке и язычку
 const wheel = document.querySelector(".deal-wheel");
